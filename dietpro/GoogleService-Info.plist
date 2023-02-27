@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>734351928810-5osqgtpcs3jcte99g12ak91mqsiaob1g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.734351928810-5osqgtpcs3jcte99g12ak91mqsiaob1g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDel3XqhzwvRDWy4u2F4JmP9ZIDQiVpqLw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>734351928810</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>dietpro</string>
+	<key>PROJECT_ID</key>
+	<string>dietpro-e8868</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dietpro-e8868.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:734351928810:ios:edb213ac1143d78866d693</string>
+	<key>DATABASE_URL</key>
+	<string>https://dietpro-e8868-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0231349E29AD14A100F28416 /* ListUserRowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347329AD14A100F28416 /* ListUserRowScreen.swift */; };
+		0231349F29AD14A100F28416 /* MealBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347429AD14A100F28416 /* MealBean.swift */; };
+		023134A029AD14A100F28416 /* FileAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347529AD14A100F28416 /* FileAccessor.swift */; };
+		023134A129AD14A100F28416 /* MealDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347629AD14A100F28416 /* MealDAO.swift */; };
+		023134A229AD14A100F28416 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347729AD14A100F28416 /* UIImageExtension.swift */; };
+		023134A329AD14A100F28416 /* ModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347829AD14A100F28416 /* ModelParser.swift */; };
+		023134A429AD14A100F28416 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347929AD14A100F28416 /* ImagePicker.swift */; };
+		023134A529AD14A100F28416 /* FindTotalConsumedCaloriesByDateVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347A29AD14A100F28416 /* FindTotalConsumedCaloriesByDateVO.swift */; };
+		023134A629AD14A100F28416 /* CreateMealScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347B29AD14A100F28416 /* CreateMealScreen.swift */; };
+		023134A729AD14A100F28416 /* RemoveUsereatsMealScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347C29AD14A100F28416 /* RemoveUsereatsMealScreen.swift */; };
+		023134A829AD14A100F28416 /* FindBMRScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347D29AD14A100F28416 /* FindBMRScreen.swift */; };
+		023134A929AD14A100F28416 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347E29AD14A100F28416 /* ContentView.swift */; };
+		023134AA29AD14A100F28416 /* UserBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231347F29AD14A100F28416 /* UserBean.swift */; };
+		023134AB29AD14A100F28416 /* CreateProfileUserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348029AD14A100F28416 /* CreateProfileUserScreen.swift */; };
+		023134AC29AD14A100F28416 /* FirebaseDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348129AD14A100F28416 /* FirebaseDB.swift */; };
+		023134AD29AD14A100F28416 /* ListMealRowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348229AD14A100F28416 /* ListMealRowScreen.swift */; };
+		023134AE29AD14A100F28416 /* ImageRecognitionVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348329AD14A100F28416 /* ImageRecognitionVO.swift */; };
+		023134AF29AD14A100F28416 /* AddUsereatsMealScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348429AD14A100F28416 /* AddUsereatsMealScreen.swift */; };
+		023134B029AD14A100F28416 /* EditMealScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348529AD14A100F28416 /* EditMealScreen.swift */; };
+		023134B129AD14A100F28416 /* CaloriesProgressScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348629AD14A100F28416 /* CaloriesProgressScreen.swift */; };
+		023134B229AD14A100F28416 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348729AD14A100F28416 /* Gender.swift */; };
+		023134B329AD14A100F28416 /* MealVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348829AD14A100F28416 /* MealVO.swift */; };
+		023134B429AD14A100F28416 /* DietproMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348929AD14A100F28416 /* DietproMain.swift */; };
+		023134B529AD14A100F28416 /* CaloriesProgressVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348A29AD14A100F28416 /* CaloriesProgressVO.swift */; };
+		023134B629AD14A100F28416 /* ModelPreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348B29AD14A100F28416 /* ModelPreferencesManager.swift */; };
+		023134B729AD14A100F28416 /* FindTotalConsumedCaloriesByDateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348C29AD14A100F28416 /* FindTotalConsumedCaloriesByDateScreen.swift */; };
+		023134B829AD14A100F28416 /* SearchMealByDatedatesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348D29AD14A100F28416 /* SearchMealByDatedatesScreen.swift */; };
+		023134B929AD14A100F28416 /* CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348E29AD14A100F28416 /* CVPixelBuffer.swift */; };
+		023134BA29AD14A100F28416 /* FindTargetCaloriesVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231348F29AD14A100F28416 /* FindTargetCaloriesVO.swift */; };
+		023134BB29AD14A100F28416 /* OclFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349029AD14A100F28416 /* OclFile.swift */; };
+		023134BC29AD14A100F28416 /* UserVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349129AD14A100F28416 /* UserVO.swift */; };
+		023134BD29AD14A100F28416 /* FindTargetCaloriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349229AD14A100F28416 /* FindTargetCaloriesScreen.swift */; };
+		023134BE29AD14A100F28416 /* ListUserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349329AD14A100F28416 /* ListUserScreen.swift */; };
+		023134BF29AD14A100F28416 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349429AD14A100F28416 /* User.swift */; };
+		023134C029AD14A100F28416 /* ModelFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349529AD14A100F28416 /* ModelFacade.swift */; };
+		023134C129AD14A100F28416 /* OclType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349629AD14A100F28416 /* OclType.swift */; };
+		023134C229AD14A100F28416 /* FindBMRVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349729AD14A100F28416 /* FindBMRVO.swift */; };
+		023134C329AD14A100F28416 /* Ocl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349829AD14A100F28416 /* Ocl.swift */; };
+		023134C429AD14A100F28416 /* ListMealScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349929AD14A100F28416 /* ListMealScreen.swift */; };
+		023134C529AD14A100F28416 /* ImageRecognitionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349A29AD14A100F28416 /* ImageRecognitionScreen.swift */; };
+		023134C629AD14A100F28416 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349B29AD14A100F28416 /* Meal.swift */; };
+		023134C729AD14A100F28416 /* ActivityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349C29AD14A100F28416 /* ActivityLevel.swift */; };
+		023134C829AD14A100F28416 /* DeleteMealScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231349D29AD14A100F28416 /* DeleteMealScreen.swift */; };
+		02FD97A02996EBF500569C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FD979F2996EBF500569C02 /* Assets.xcassets */; };
+		02FD97A32996EBF500569C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FD97A22996EBF500569C02 /* Preview Assets.xcassets */; };
+		02FD97FC2996EC2E00569C02 /* food.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 02FD97FB2996EC2E00569C02 /* food.tflite */; };
+		02FD98542997046500569C02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02FD98532997046500569C02 /* GoogleService-Info.plist */; };
+		4C76D48C1BFE68E05CB7590C /* Pods_dietpro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917E37E2A9CD5CA831A001AB /* Pods_dietpro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0231347329AD14A100F28416 /* ListUserRowScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListUserRowScreen.swift; sourceTree = "<group>"; };
+		0231347429AD14A100F28416 /* MealBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealBean.swift; sourceTree = "<group>"; };
+		0231347529AD14A100F28416 /* FileAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAccessor.swift; sourceTree = "<group>"; };
+		0231347629AD14A100F28416 /* MealDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDAO.swift; sourceTree = "<group>"; };
+		0231347729AD14A100F28416 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		0231347829AD14A100F28416 /* ModelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelParser.swift; sourceTree = "<group>"; };
+		0231347929AD14A100F28416 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0231347A29AD14A100F28416 /* FindTotalConsumedCaloriesByDateVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTotalConsumedCaloriesByDateVO.swift; sourceTree = "<group>"; };
+		0231347B29AD14A100F28416 /* CreateMealScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMealScreen.swift; sourceTree = "<group>"; };
+		0231347C29AD14A100F28416 /* RemoveUsereatsMealScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveUsereatsMealScreen.swift; sourceTree = "<group>"; };
+		0231347D29AD14A100F28416 /* FindBMRScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindBMRScreen.swift; sourceTree = "<group>"; };
+		0231347E29AD14A100F28416 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0231347F29AD14A100F28416 /* UserBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserBean.swift; sourceTree = "<group>"; };
+		0231348029AD14A100F28416 /* CreateProfileUserScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileUserScreen.swift; sourceTree = "<group>"; };
+		0231348129AD14A100F28416 /* FirebaseDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDB.swift; sourceTree = "<group>"; };
+		0231348229AD14A100F28416 /* ListMealRowScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMealRowScreen.swift; sourceTree = "<group>"; };
+		0231348329AD14A100F28416 /* ImageRecognitionVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRecognitionVO.swift; sourceTree = "<group>"; };
+		0231348429AD14A100F28416 /* AddUsereatsMealScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUsereatsMealScreen.swift; sourceTree = "<group>"; };
+		0231348529AD14A100F28416 /* EditMealScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMealScreen.swift; sourceTree = "<group>"; };
+		0231348629AD14A100F28416 /* CaloriesProgressScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaloriesProgressScreen.swift; sourceTree = "<group>"; };
+		0231348729AD14A100F28416 /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		0231348829AD14A100F28416 /* MealVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealVO.swift; sourceTree = "<group>"; };
+		0231348929AD14A100F28416 /* DietproMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietproMain.swift; sourceTree = "<group>"; };
+		0231348A29AD14A100F28416 /* CaloriesProgressVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaloriesProgressVO.swift; sourceTree = "<group>"; };
+		0231348B29AD14A100F28416 /* ModelPreferencesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPreferencesManager.swift; sourceTree = "<group>"; };
+		0231348C29AD14A100F28416 /* FindTotalConsumedCaloriesByDateScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTotalConsumedCaloriesByDateScreen.swift; sourceTree = "<group>"; };
+		0231348D29AD14A100F28416 /* SearchMealByDatedatesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMealByDatedatesScreen.swift; sourceTree = "<group>"; };
+		0231348E29AD14A100F28416 /* CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVPixelBuffer.swift; sourceTree = "<group>"; };
+		0231348F29AD14A100F28416 /* FindTargetCaloriesVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTargetCaloriesVO.swift; sourceTree = "<group>"; };
+		0231349029AD14A100F28416 /* OclFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OclFile.swift; sourceTree = "<group>"; };
+		0231349129AD14A100F28416 /* UserVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserVO.swift; sourceTree = "<group>"; };
+		0231349229AD14A100F28416 /* FindTargetCaloriesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTargetCaloriesScreen.swift; sourceTree = "<group>"; };
+		0231349329AD14A100F28416 /* ListUserScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListUserScreen.swift; sourceTree = "<group>"; };
+		0231349429AD14A100F28416 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0231349529AD14A100F28416 /* ModelFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelFacade.swift; sourceTree = "<group>"; };
+		0231349629AD14A100F28416 /* OclType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OclType.swift; sourceTree = "<group>"; };
+		0231349729AD14A100F28416 /* FindBMRVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindBMRVO.swift; sourceTree = "<group>"; };
+		0231349829AD14A100F28416 /* Ocl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ocl.swift; sourceTree = "<group>"; };
+		0231349929AD14A100F28416 /* ListMealScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMealScreen.swift; sourceTree = "<group>"; };
+		0231349A29AD14A100F28416 /* ImageRecognitionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRecognitionScreen.swift; sourceTree = "<group>"; };
+		0231349B29AD14A100F28416 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		0231349C29AD14A100F28416 /* ActivityLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLevel.swift; sourceTree = "<group>"; };
+		0231349D29AD14A100F28416 /* DeleteMealScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteMealScreen.swift; sourceTree = "<group>"; };
+		02FD97982996EBF400569C02 /* dietpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dietpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FD979F2996EBF500569C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02FD97A22996EBF500569C02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02FD97A92996EC0800569C02 /* dietpro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dietpro-Bridging-Header.h"; sourceTree = "<group>"; };
+		02FD97FB2996EC2E00569C02 /* food.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = food.tflite; sourceTree = "<group>"; };
+		02FD98532997046500569C02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		295BC2143136DAC485F685F9 /* Pods-dietpro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietpro.debug.xcconfig"; path = "Target Support Files/Pods-dietpro/Pods-dietpro.debug.xcconfig"; sourceTree = "<group>"; };
+		70BC49D8402AB26C006F9751 /* Pods-dietpro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dietpro.release.xcconfig"; path = "Target Support Files/Pods-dietpro/Pods-dietpro.release.xcconfig"; sourceTree = "<group>"; };
+		917E37E2A9CD5CA831A001AB /* Pods_dietpro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dietpro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02FD97952996EBF400569C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C76D48C1BFE68E05CB7590C /* Pods_dietpro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FD978F2996EBF400569C02 = {
+			isa = PBXGroup;
+			children = (
+				02FD979A2996EBF400569C02 /* dietpro */,
+				02FD97992996EBF400569C02 /* Products */,
+				C17373573DC5F2E6A10D80BC /* Pods */,
+				6B4039507EB6AE214F4E27C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02FD97992996EBF400569C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02FD97982996EBF400569C02 /* dietpro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02FD979A2996EBF400569C02 /* dietpro */ = {
+			isa = PBXGroup;
+			children = (
+				0231349C29AD14A100F28416 /* ActivityLevel.swift */,
+				0231348429AD14A100F28416 /* AddUsereatsMealScreen.swift */,
+				0231348629AD14A100F28416 /* CaloriesProgressScreen.swift */,
+				0231348A29AD14A100F28416 /* CaloriesProgressVO.swift */,
+				0231347E29AD14A100F28416 /* ContentView.swift */,
+				0231347B29AD14A100F28416 /* CreateMealScreen.swift */,
+				0231348029AD14A100F28416 /* CreateProfileUserScreen.swift */,
+				0231348E29AD14A100F28416 /* CVPixelBuffer.swift */,
+				0231349D29AD14A100F28416 /* DeleteMealScreen.swift */,
+				0231348929AD14A100F28416 /* DietproMain.swift */,
+				0231348529AD14A100F28416 /* EditMealScreen.swift */,
+				0231347529AD14A100F28416 /* FileAccessor.swift */,
+				0231347D29AD14A100F28416 /* FindBMRScreen.swift */,
+				0231349729AD14A100F28416 /* FindBMRVO.swift */,
+				0231349229AD14A100F28416 /* FindTargetCaloriesScreen.swift */,
+				0231348F29AD14A100F28416 /* FindTargetCaloriesVO.swift */,
+				0231348C29AD14A100F28416 /* FindTotalConsumedCaloriesByDateScreen.swift */,
+				0231347A29AD14A100F28416 /* FindTotalConsumedCaloriesByDateVO.swift */,
+				0231348129AD14A100F28416 /* FirebaseDB.swift */,
+				0231348729AD14A100F28416 /* Gender.swift */,
+				0231347929AD14A100F28416 /* ImagePicker.swift */,
+				0231349A29AD14A100F28416 /* ImageRecognitionScreen.swift */,
+				0231348329AD14A100F28416 /* ImageRecognitionVO.swift */,
+				0231348229AD14A100F28416 /* ListMealRowScreen.swift */,
+				0231349929AD14A100F28416 /* ListMealScreen.swift */,
+				0231347329AD14A100F28416 /* ListUserRowScreen.swift */,
+				0231349329AD14A100F28416 /* ListUserScreen.swift */,
+				0231349B29AD14A100F28416 /* Meal.swift */,
+				0231347429AD14A100F28416 /* MealBean.swift */,
+				0231347629AD14A100F28416 /* MealDAO.swift */,
+				0231348829AD14A100F28416 /* MealVO.swift */,
+				0231349529AD14A100F28416 /* ModelFacade.swift */,
+				0231347829AD14A100F28416 /* ModelParser.swift */,
+				0231348B29AD14A100F28416 /* ModelPreferencesManager.swift */,
+				0231349829AD14A100F28416 /* Ocl.swift */,
+				0231349029AD14A100F28416 /* OclFile.swift */,
+				0231349629AD14A100F28416 /* OclType.swift */,
+				0231347C29AD14A100F28416 /* RemoveUsereatsMealScreen.swift */,
+				0231348D29AD14A100F28416 /* SearchMealByDatedatesScreen.swift */,
+				0231347729AD14A100F28416 /* UIImageExtension.swift */,
+				0231349429AD14A100F28416 /* User.swift */,
+				0231347F29AD14A100F28416 /* UserBean.swift */,
+				0231349129AD14A100F28416 /* UserVO.swift */,
+				02FD97FB2996EC2E00569C02 /* food.tflite */,
+				02FD98532997046500569C02 /* GoogleService-Info.plist */,
+				02FD979F2996EBF500569C02 /* Assets.xcassets */,
+				02FD97A12996EBF500569C02 /* Preview Content */,
+				02FD97A92996EC0800569C02 /* dietpro-Bridging-Header.h */,
+			);
+			path = dietpro;
+			sourceTree = "<group>";
+		};
+		02FD97A12996EBF500569C02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02FD97A22996EBF500569C02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B4039507EB6AE214F4E27C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				917E37E2A9CD5CA831A001AB /* Pods_dietpro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17373573DC5F2E6A10D80BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				295BC2143136DAC485F685F9 /* Pods-dietpro.debug.xcconfig */,
+				70BC49D8402AB26C006F9751 /* Pods-dietpro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02FD97972996EBF400569C02 /* dietpro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FD97A62996EBF500569C02 /* Build configuration list for PBXNativeTarget "dietpro" */;
+			buildPhases = (
+				232DB7ED52B3D2E695F0B7B1 /* [CP] Check Pods Manifest.lock */,
+				02FD97942996EBF400569C02 /* Sources */,
+				02FD97952996EBF400569C02 /* Frameworks */,
+				02FD97962996EBF400569C02 /* Resources */,
+				1E4E267B18B21F9125E813B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dietpro;
+			productName = dietpro;
+			productReference = 02FD97982996EBF400569C02 /* dietpro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02FD97902996EBF400569C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					02FD97972996EBF400569C02 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 02FD97932996EBF400569C02 /* Build configuration list for PBXProject "dietpro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02FD978F2996EBF400569C02;
+			productRefGroup = 02FD97992996EBF400569C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FD97972996EBF400569C02 /* dietpro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FD97962996EBF400569C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FD97FC2996EC2E00569C02 /* food.tflite in Resources */,
+				02FD98542997046500569C02 /* GoogleService-Info.plist in Resources */,
+				02FD97A32996EBF500569C02 /* Preview Assets.xcassets in Resources */,
+				02FD97A02996EBF500569C02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E4E267B18B21F9125E813B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dietpro/Pods-dietpro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dietpro/Pods-dietpro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dietpro/Pods-dietpro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		232DB7ED52B3D2E695F0B7B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dietpro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FD97942996EBF400569C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023134A329AD14A100F28416 /* ModelParser.swift in Sources */,
+				0231349F29AD14A100F28416 /* MealBean.swift in Sources */,
+				023134B729AD14A100F28416 /* FindTotalConsumedCaloriesByDateScreen.swift in Sources */,
+				023134A929AD14A100F28416 /* ContentView.swift in Sources */,
+				023134AC29AD14A100F28416 /* FirebaseDB.swift in Sources */,
+				023134A029AD14A100F28416 /* FileAccessor.swift in Sources */,
+				023134B329AD14A100F28416 /* MealVO.swift in Sources */,
+				023134AE29AD14A100F28416 /* ImageRecognitionVO.swift in Sources */,
+				023134BB29AD14A100F28416 /* OclFile.swift in Sources */,
+				023134B529AD14A100F28416 /* CaloriesProgressVO.swift in Sources */,
+				023134B229AD14A100F28416 /* Gender.swift in Sources */,
+				023134B129AD14A100F28416 /* CaloriesProgressScreen.swift in Sources */,
+				023134C129AD14A100F28416 /* OclType.swift in Sources */,
+				023134B929AD14A100F28416 /* CVPixelBuffer.swift in Sources */,
+				023134AD29AD14A100F28416 /* ListMealRowScreen.swift in Sources */,
+				023134C429AD14A100F28416 /* ListMealScreen.swift in Sources */,
+				023134A429AD14A100F28416 /* ImagePicker.swift in Sources */,
+				023134B629AD14A100F28416 /* ModelPreferencesManager.swift in Sources */,
+				023134BE29AD14A100F28416 /* ListUserScreen.swift in Sources */,
+				023134B429AD14A100F28416 /* DietproMain.swift in Sources */,
+				0231349E29AD14A100F28416 /* ListUserRowScreen.swift in Sources */,
+				023134A529AD14A100F28416 /* FindTotalConsumedCaloriesByDateVO.swift in Sources */,
+				023134BD29AD14A100F28416 /* FindTargetCaloriesScreen.swift in Sources */,
+				023134A829AD14A100F28416 /* FindBMRScreen.swift in Sources */,
+				023134C829AD14A100F28416 /* DeleteMealScreen.swift in Sources */,
+				023134A629AD14A100F28416 /* CreateMealScreen.swift in Sources */,
+				023134C329AD14A100F28416 /* Ocl.swift in Sources */,
+				023134B829AD14A100F28416 /* SearchMealByDatedatesScreen.swift in Sources */,
+				023134BF29AD14A100F28416 /* User.swift in Sources */,
+				023134BC29AD14A100F28416 /* UserVO.swift in Sources */,
+				023134C729AD14A100F28416 /* ActivityLevel.swift in Sources */,
+				023134BA29AD14A100F28416 /* FindTargetCaloriesVO.swift in Sources */,
+				023134AA29AD14A100F28416 /* UserBean.swift in Sources */,
+				023134AB29AD14A100F28416 /* CreateProfileUserScreen.swift in Sources */,
+				023134C629AD14A100F28416 /* Meal.swift in Sources */,
+				023134A229AD14A100F28416 /* UIImageExtension.swift in Sources */,
+				023134A729AD14A100F28416 /* RemoveUsereatsMealScreen.swift in Sources */,
+				023134C029AD14A100F28416 /* ModelFacade.swift in Sources */,
+				023134C529AD14A100F28416 /* ImageRecognitionScreen.swift in Sources */,
+				023134B029AD14A100F28416 /* EditMealScreen.swift in Sources */,
+				023134AF29AD14A100F28416 /* AddUsereatsMealScreen.swift in Sources */,
+				023134A129AD14A100F28416 /* MealDAO.swift in Sources */,
+				023134C229AD14A100F28416 /* FindBMRVO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02FD97A42996EBF500569C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02FD97A52996EBF500569C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02FD97A72996EBF500569C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295BC2143136DAC485F685F9 /* Pods-dietpro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dietpro/Preview Content\"";
+				DEVELOPMENT_TEAM = NR2XNW22UL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dietpro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "dietpro/dietpro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02FD97A82996EBF500569C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BC49D8402AB26C006F9751 /* Pods-dietpro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dietpro/Preview Content\"";
+				DEVELOPMENT_TEAM = NR2XNW22UL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dietpro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "dietpro/dietpro-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FD97932996EBF400569C02 /* Build configuration list for PBXProject "dietpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FD97A42996EBF500569C02 /* Debug */,
+				02FD97A52996EBF500569C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FD97A62996EBF500569C02 /* Build configuration list for PBXNativeTarget "dietpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FD97A72996EBF500569C02 /* Debug */,
+				02FD97A82996EBF500569C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02FD97902996EBF400569C02 /* Project object */;
+}

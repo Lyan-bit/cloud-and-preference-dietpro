@@ -1,7 +1,7 @@
 
 import Foundation
 
-class UserVO : Hashable, Identifiable, Decodable, Encodable {
+class UserVO : Identifiable, Decodable, Encodable {
 
   var userName: String = ""
   var gender: String = ""
@@ -108,30 +108,4 @@ class UserVO : Hashable, Identifiable, Decodable, Encodable {
   func setBmr(x : Double)
 	  { bmr = x }
 	  
-
-  static func == (lhs: UserVO, rhs: UserVO) -> Bool
-  { return
-      lhs.userName == rhs.userName &&
-      lhs.gender == rhs.gender &&
-      lhs.heights == rhs.heights &&
-      lhs.weights == rhs.weights &&
-      lhs.activityLevel == rhs.activityLevel &&
-      lhs.age == rhs.age &&
-      lhs.targetCalories == rhs.targetCalories &&
-      lhs.totalConsumedCalories == rhs.totalConsumedCalories &&
-      lhs.bmr == rhs.bmr
-  }
-
-  func hash(into hasher: inout Hasher) {
-    hasher.combine(userName)
-    hasher.combine(gender)
-    hasher.combine(heights)
-    hasher.combine(weights)
-    hasher.combine(activityLevel)
-    hasher.combine(age)
-    hasher.combine(targetCalories)
-    hasher.combine(totalConsumedCalories)
-    hasher.combine(bmr)
-  }
-
 }

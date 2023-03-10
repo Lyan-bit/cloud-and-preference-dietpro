@@ -1,7 +1,7 @@
 
 import Foundation
 
-class MealVO : Hashable, Identifiable, Decodable, Encodable {
+class MealVO : Identifiable, Decodable, Encodable {
 
   var mealId: String = ""
   var mealName: String = ""
@@ -89,27 +89,5 @@ class MealVO : Hashable, Identifiable, Decodable, Encodable {
 	
   func setUserName(x : String)
 	  { userName = x }
-	  
-
-  static func == (lhs: MealVO, rhs: MealVO) -> Bool
-  { return
-      lhs.mealId == rhs.mealId &&
-      lhs.mealName == rhs.mealName &&
-      lhs.calories == rhs.calories &&
-      lhs.dates == rhs.dates &&
-      lhs.images == rhs.images &&
-      lhs.analysis == rhs.analysis &&
-      lhs.userName == rhs.userName
-  }
-
-  func hash(into hasher: inout Hasher) {
-    hasher.combine(mealId)
-    hasher.combine(mealName)
-    hasher.combine(calories)
-    hasher.combine(dates)
-    hasher.combine(images)
-    hasher.combine(analysis)
-    hasher.combine(userName)
-  }
 
 }

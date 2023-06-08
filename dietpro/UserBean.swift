@@ -13,33 +13,33 @@ class UserBean {
   	errorList = [String]()
   }
 
-  func isCreateUserError(userName: String, gender: String, heights: Double, weights: Double, activityLevel: String, age: Double, targetCalories: Double, totalConsumedCalories: Double, bmr: Double) -> Bool { 
+    func isCreateUserError(user: User) -> Bool { 
   	resetData() 
-  	if userName == "" {
+  	if user.userName == "" {
   		errorList.append("userName cannot be empty")
   	}
-  	if gender == "" {
+  	if user.gender == "" {
   		errorList.append("gender cannot be empty")
   	}
-  	if heights != 0 {
+  	if user.heights != 0 {
 	  		errorList.append("heights cannot be zero")
 	  	}
-  	if weights != 0 {
+  	if user.weights != 0 {
 	  		errorList.append("weights cannot be zero")
 	  	}
-  	if activityLevel == "" {
+  	if user.activityLevel == "" {
   		errorList.append("activityLevel cannot be empty")
   	}
-  	if age != 0 {
+  	if user.age != 0 {
 	  		errorList.append("age cannot be zero")
 	  	}
-  	if targetCalories != 0 {
+  	if user.targetCalories != 0 {
 	  		errorList.append("targetCalories cannot be zero")
 	  	}
-  	if totalConsumedCalories != 0 {
+  	if user.totalConsumedCalories != 0 {
 	  		errorList.append("totalConsumedCalories cannot be zero")
 	  	}
-  	if bmr != 0 {
+  	if user.bmr != 0 {
 	  		errorList.append("bmr cannot be zero")
 	  	}
 

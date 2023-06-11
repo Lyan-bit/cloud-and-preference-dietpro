@@ -2,108 +2,6 @@
 import Foundation
 import SwiftUI
 
-/* This code requires OclFile.swift */
-
-func initialiseOclFile()
-{ 
-  //let systemIn = createByPKOclFile(key: "System.in")
-  //let systemOut = createByPKOclFile(key: "System.out")
-  //let systemErr = createByPKOclFile(key: "System.err")
-}
-
-/* This metatype code requires OclType.swift */
-
-func initialiseOclType()
-{ let intOclType = createByPKOclType(key: "int")
-  intOclType.actualMetatype = Int.self
-  let doubleOclType = createByPKOclType(key: "double")
-  doubleOclType.actualMetatype = Double.self
-  let longOclType = createByPKOclType(key: "long")
-  longOclType.actualMetatype = Int64.self
-  let stringOclType = createByPKOclType(key: "String")
-  stringOclType.actualMetatype = String.self
-  let sequenceOclType = createByPKOclType(key: "Sequence")
-  sequenceOclType.actualMetatype = type(of: [])
-  let anyset : Set<AnyHashable> = Set<AnyHashable>()
-  let setOclType = createByPKOclType(key: "Set")
-  setOclType.actualMetatype = type(of: anyset)
-  let mapOclType = createByPKOclType(key: "Map")
-  mapOclType.actualMetatype = type(of: [:])
-  let voidOclType = createByPKOclType(key: "void")
-  voidOclType.actualMetatype = Void.self
-	
-  let mealOclType = createByPKOclType(key: "Meal")
-  mealOclType.actualMetatype = Meal.self
-
-  let mealMealId = createOclAttribute()
-  	  mealMealId.name = "mealId"
-  	  mealMealId.type = stringOclType
-  	  mealOclType.attributes.append(mealMealId)
-  let mealMealName = createOclAttribute()
-  	  mealMealName.name = "mealName"
-  	  mealMealName.type = stringOclType
-  	  mealOclType.attributes.append(mealMealName)
-  let mealCalories = createOclAttribute()
-  	  mealCalories.name = "calories"
-  	  mealCalories.type = doubleOclType
-  	  mealOclType.attributes.append(mealCalories)
-  let mealDates = createOclAttribute()
-  	  mealDates.name = "dates"
-  	  mealDates.type = stringOclType
-  	  mealOclType.attributes.append(mealDates)
-  let mealImages = createOclAttribute()
-  	  mealImages.name = "images"
-  	  mealImages.type = stringOclType
-  	  mealOclType.attributes.append(mealImages)
-  let mealAnalysis = createOclAttribute()
-  	  mealAnalysis.name = "analysis"
-  	  mealAnalysis.type = stringOclType
-  	  mealOclType.attributes.append(mealAnalysis)
-  let mealUserName = createOclAttribute()
-  	  mealUserName.name = "userName"
-  	  mealUserName.type = stringOclType
-  	  mealOclType.attributes.append(mealUserName)
-  let userOclType = createByPKOclType(key: "User")
-  userOclType.actualMetatype = User.self
-
-  let userUserName = createOclAttribute()
-  	  userUserName.name = "userName"
-  	  userUserName.type = stringOclType
-  	  userOclType.attributes.append(userUserName)
-  let userGender = createOclAttribute()
-  	  userGender.name = "gender"
-  	  userGender.type = stringOclType
-  	  userOclType.attributes.append(userGender)
-  let userHeights = createOclAttribute()
-  	  userHeights.name = "heights"
-  	  userHeights.type = doubleOclType
-  	  userOclType.attributes.append(userHeights)
-  let userWeights = createOclAttribute()
-  	  userWeights.name = "weights"
-  	  userWeights.type = doubleOclType
-  	  userOclType.attributes.append(userWeights)
-  let userActivityLevel = createOclAttribute()
-  	  userActivityLevel.name = "activityLevel"
-  	  userActivityLevel.type = stringOclType
-  	  userOclType.attributes.append(userActivityLevel)
-  let userAge = createOclAttribute()
-  	  userAge.name = "age"
-  	  userAge.type = doubleOclType
-  	  userOclType.attributes.append(userAge)
-  let userTargetCalories = createOclAttribute()
-  	  userTargetCalories.name = "targetCalories"
-  	  userTargetCalories.type = doubleOclType
-  	  userOclType.attributes.append(userTargetCalories)
-  let userTotalConsumedCalories = createOclAttribute()
-  	  userTotalConsumedCalories.name = "totalConsumedCalories"
-  	  userTotalConsumedCalories.type = doubleOclType
-  	  userOclType.attributes.append(userTotalConsumedCalories)
-  let userBmr = createOclAttribute()
-  	  userBmr.name = "bmr"
-  	  userBmr.type = doubleOclType
-  	  userOclType.attributes.append(userBmr)
-}
-
 func instanceFromJSON(typeName: String, json: String) -> AnyObject?
 	{ let jdata = json.data(using: .utf8)!
 	  let decoder = JSONDecoder()
@@ -132,8 +30,7 @@ class ModelFacade : ObservableObject {
 	static func getInstance() -> ModelFacade { 
 		if instance == nil
 	     { instance = ModelFacade() 
-	       initialiseOclFile()
-	       initialiseOclType() }
+        }
 	    return instance! }
 	                          
 	init() { 
